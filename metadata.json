@@ -1,0 +1,5 @@
+{
+  "name": "Dress Emporium Bangladesh",
+  "description": "Luxury women's fashion boutique in Dhaka, offering premium party dresses, casual wear, and traditional attire.",
+  "requestFramePermissions": ["geolocation"]
+}

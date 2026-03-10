@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-brand-beige: #f5f2ed;
+  --color-brand-pink: #fce4ec;
+  --color-brand-gold: #c5a059;
+  --color-brand-dark: #1a1a1a;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-brand-dark bg-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/80 backdrop-blur-md border-b border-black/5;
+}
+
+.luxury-shadow {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.aspect-portrait {
+  aspect-ratio: 3 / 4;
+}
